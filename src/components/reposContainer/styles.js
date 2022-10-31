@@ -56,7 +56,7 @@ export const ListOfReposContainer = styled.h1`
 
 export const Repo = styled.h2`
     width: 100%;
-    height: 80px;
+    height: 100px;
     background: rgba(0,0,0,.05);
     border-radius: 5px;
     padding: 10px;

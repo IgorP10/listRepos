@@ -6,8 +6,7 @@ import {
     HeaderSection,
     HeaderTitle,
     HeaderInputContainer,
-    HeaderInput,
-    HeaderSearchButton
+    HeaderInput
 } from './styles';
 
 import client from '../../services/client';
@@ -38,9 +37,9 @@ const Header = props => {
             <HeaderInputContainer>
                 <HeaderInput type="text" value={searchValue} onChange={e => setSearchValue(e.target.value)} />
         
-                {/* <HeaderSearchButton onClick={saveQueryOnURL}>
-                    <FiSearch size={15} />
-                </HeaderSearchButton> */}
+                {/*<HeaderSearchButton onClick={saveQueryOnURL}>*/}
+                {/*    <FiSearch size={15} />*/}
+                {/*</HeaderSearchButton>*/}
 
                 <Link to={`/?username=${searchValue}`}>
                     <FiSearch size={15} />
