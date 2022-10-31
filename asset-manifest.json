@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/listRepos/static/js/main.b93031c3.js",
+    "index.html": "/listRepos/index.html",
+    "main.b93031c3.js.map": "/listRepos/static/js/main.b93031c3.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b93031c3.js"
+  ]
+}
